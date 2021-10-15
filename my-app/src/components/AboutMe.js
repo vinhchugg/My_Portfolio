@@ -1,9 +1,14 @@
 import React from "react";
+import "./typewriter.css";
 
 function AboutMe() {
   return (
     <section>
-      <h2>// About Me</h2>
+      <header className="section-header">
+        <div className="typewriter">
+          <h2>// About Me</h2>
+        </div>
+      </header>
       <p>
         Software Engineer Consultant at Bright Network with a degree in
         Mathematics.
