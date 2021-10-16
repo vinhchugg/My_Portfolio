@@ -5,17 +5,19 @@ function Homepage() {
   return (
     <section className="homepage full-page">
       <section className="homepage-title">
-        <h1>
-          <span className="animate__animated animate__bounceIn">V</span>
-          <span>i</span>
-          <span>n</span>
-          <span>h</span>
+        <h1 className="name animate__animated">
+          <span className="animate__animated">V</span>
+          <span className="animate__animated">I</span>
+          <span className="animate__animated">N</span>
+          <span className="animate__animated">H</span>
           <br />
-          <span>C</span>
-          <span>h</span>
-          <span>u</span>
+          <span className="animate__animated">C</span>
+          <span className="animate__animated">H</span>
+          <span className="animate__animated">U</span>
         </h1>
-        <p className="job-title">Software Engineer</p>
+        <p className="job-title animate__animated animate__fadeInLeft">
+          Software Engineer
+        </p>
       </section>
       <div className="scroll-down">
         <span>Scroll Down</span>

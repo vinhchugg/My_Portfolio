@@ -3,7 +3,7 @@ import "./typewriter.css";
 
 function PersonalProjects() {
   return (
-    <section>
+    <section className="full-page">
       <header className="section-header">
         <div className="typewriter">
           <h2>// Personal Projects</h2>

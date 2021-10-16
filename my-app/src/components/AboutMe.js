@@ -3,9 +3,9 @@ import "./typewriter.css";
 
 function AboutMe() {
   return (
-    <section>
+    <section className="full-page">
       <header className="section-header">
-        <div className="typewriter">
+        <div className="section-header-title typewriter">
           <h2>// About Me</h2>
         </div>
       </header>

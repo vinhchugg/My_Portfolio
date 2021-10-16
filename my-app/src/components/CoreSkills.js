@@ -3,7 +3,7 @@ import "./typewriter.css";
 
 function CoreSkills() {
   return (
-    <section>
+    <section className="full-page">
       <header className="section-header">
         <div className="typewriter">
           <h2>// Core Skills</h2>

@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.name {
+header .name {
   font-size: 2.4rem;
   letter-spacing: 0.1rem;
   position: relative;
