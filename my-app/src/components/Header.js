@@ -1,6 +1,8 @@
 import React from "react";
 // import NavBar from "./NavBar";
 import "./header.css";
+import { IconName } from "react-icons/fa";
+
 function Header() {
   return (
     <header className="header">
