@@ -1,0 +1,66 @@
+@import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
+.full-page {
+  height: 100vh;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage-title {
+  padding-left: 5rem;
+}
+
+h1 {
+  font-family: "futura";
+  font-size: 8rem;
+  line-height: 7rem;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  position: relative;
+}
+
+h1:before {
+  content: "<vinh>";
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: -5rem;
+  left: -4rem;
+}
+h1:after {
+  content: "</vinh>";
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 3.8rem;
+  left: -4rem;
+  bottom: -5rem;
+}
+
+.job-title {
+  margin-top: 4rem;
+  color: #fff;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 10px;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scroll-down span {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.scroll-down--right {
+  right: 10px;
+  left: auto;
+}
