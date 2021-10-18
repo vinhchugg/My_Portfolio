@@ -37,14 +37,31 @@ h1:after {
   color: #515152;
   font-size: 1.8rem;
   position: absolute;
-  margin-top: 3.8rem;
   left: -4rem;
   bottom: -5rem;
 }
 
 .job-title {
-  margin-top: 4rem;
+  margin-top: 5rem;
   color: #fff;
+}
+
+.job-title:before {
+  content: "<p>";
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: -2rem;
+  left: -4rem;
+}
+
+.job-title:after {
+  content: "</p>";
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  left: -4rem;
+  bottom: -2.2rem;
 }
 
 .scroll-down {

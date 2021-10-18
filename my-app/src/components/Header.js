@@ -1,7 +1,7 @@
 import React from "react";
 // import NavBar from "./NavBar";
 import "./header.css";
-import { IconName } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Header() {
   return (
@@ -12,10 +12,10 @@ function Header() {
       <div className="nav-container">
         <div className="icons">
           <a className="" href="#">
-            github
+            <FaGithub />
           </a>
           <a className="" href="#">
-            linkedin
+            <FaLinkedin />
           </a>
         </div>
         <div className="menu-icon"></div>

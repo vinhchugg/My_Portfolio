@@ -1,5 +1,7 @@
 import React from "react";
 import "./typewriter.css";
+import "./animation";
+import { useInView } from "react-intersection-observer";
 
 function AboutMe() {
   return (
