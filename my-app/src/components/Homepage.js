@@ -18,6 +18,7 @@ function Homepage() {
         <p className="job-title animate__animated animate__fadeInLeft">
           Software Engineer
         </p>
+        <img src="../images/Vinh-Portfolio.png" />
       </section>
       <div className="scroll-down">
         <span>Scroll Down</span>
