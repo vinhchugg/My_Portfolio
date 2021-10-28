@@ -11,6 +11,10 @@
 
 .homepage-title {
   padding-left: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-bottom: 5rem;
 }
 
 h1 {
@@ -81,4 +85,12 @@ h1:after {
 .scroll-down--right {
   right: 10px;
   left: auto;
+}
+
+.title {
+  width: 100%;
+}
+
+.portfolio-drawing {
+  width: 100%;
 }

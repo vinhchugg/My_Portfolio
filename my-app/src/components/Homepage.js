@@ -1,24 +1,31 @@
 import React from "react";
 import "./homepage.css";
+import drawing from "../images/Vinh-Portfolio.png";
 
 function Homepage() {
   return (
     <section className="homepage full-page">
       <section className="homepage-title">
-        <h1 className="name animate__animated">
-          <span className="animate__animated">V</span>
-          <span className="animate__animated">I</span>
-          <span className="animate__animated">N</span>
-          <span className="animate__animated">H</span>
-          <br />
-          <span className="animate__animated">C</span>
-          <span className="animate__animated">H</span>
-          <span className="animate__animated">U</span>
-        </h1>
-        <p className="job-title animate__animated animate__fadeInLeft">
-          Software Engineer
-        </p>
-        <img src="../images/Vinh-Portfolio.png" />
+        <section className="title">
+          <h1 className="name animate__animated">
+            <span className="animate__animated">V</span>
+            <span className="animate__animated">I</span>
+            <span className="animate__animated">N</span>
+            <span className="animate__animated">H</span>
+            <br />
+            <span className="animate__animated">C</span>
+            <span className="animate__animated">H</span>
+            <span className="animate__animated">U</span>
+          </h1>
+          <p className="job-title animate__animated animate__fadeInLeft">
+            Software Engineer
+          </p>
+        </section>
+        <img
+          className="portfolio-drawing"
+          src={drawing}
+          alt="Drawing of me holding up a sign that says My Portfolio"
+        />
       </section>
       <div className="scroll-down">
         <span>Scroll Down</span>
