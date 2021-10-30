@@ -10,14 +10,12 @@ function Header() {
         Vinh Chu
       </a>
       <div className="nav-container">
-        <div className="icons">
-          <a className="" href="#">
-            <FaGithub />
-          </a>
-          <a className="" href="#">
-            <FaLinkedin />
-          </a>
-        </div>
+        <a className="" href="#">
+          <FaGithub />
+        </a>
+        <a className="" href="#">
+          <FaLinkedin />
+        </a>
         <div className="menu-icon"></div>
       </div>
     </header>

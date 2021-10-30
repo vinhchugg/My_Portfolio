@@ -3,13 +3,24 @@ import "./typewriter.css";
 
 function PersonalProjects() {
   return (
-    <section className="full-page">
+    <section className="personal-projects">
       <header className="section-header">
         <div className="typewriter">
-          <h2>// Personal Projects</h2>
+          <h2>// Projects</h2>
         </div>
       </header>
-      <p></p>
+      <div className="text-centered">
+        <h3>Frontend Mentor</h3>
+        <p>
+          Improving front-end coding skills by completing a series of challenges
+          using HTML, CSS and JavaScript.
+        </p>
+        <h3>The Odin Project</h3>
+        <p>
+          Improving front-end coding skills by completing a series of challenges
+          using HTML, CSS and JavaScript.
+        </p>
+      </div>
     </section>
   );
 }

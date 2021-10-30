@@ -3,18 +3,10 @@
   height: 100vh;
 }
 
-.homepage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .homepage-title {
-  padding-left: 5rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding-bottom: 5rem;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 1rem;
 }
 
 h1 {
@@ -24,8 +16,8 @@ h1 {
   font-weight: 400;
   margin: 0;
   color: #fff;
-  position: relative;
   letter-spacing: 0.2rem;
+  position: relative;
 }
 
 h1:before {
@@ -89,8 +81,27 @@ h1:after {
 
 .title {
   width: 100%;
+  padding: 2rem 5rem;
+}
+
+.homepage-img {
+  grid-row: 1;
 }
 
 .portfolio-drawing {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .homepage-title {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    align-content: center;
+  }
+
+  .homepage-img {
+    grid-column: 2;
+  }
 }

@@ -21,11 +21,13 @@ function Homepage() {
             Software Engineer
           </p>
         </section>
-        <img
-          className="portfolio-drawing"
-          src={drawing}
-          alt="Drawing of me holding up a sign that says My Portfolio"
-        />
+        <div className="homepage-img">
+          <img
+            className="portfolio-drawing"
+            src={drawing}
+            alt="Drawing of me holding up a sign that says My Portfolio"
+          />
+        </div>
       </section>
       <div className="scroll-down">
         <span>Scroll Down</span>

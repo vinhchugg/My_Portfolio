@@ -2,10 +2,10 @@
 
 .header {
   width: 100%;
-  padding: 2rem 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 0;
 }
 
 header .name {
@@ -25,4 +25,5 @@ a {
 
 .nav-container {
   display: flex;
+  column-gap: 0.3rem;
 }
