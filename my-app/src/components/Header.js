@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Header() {
   return (
     <header className="header">
-      <a className="name" href="#">
+      <a className="name" href="https://vinhchugg.github.io/My_Portfolio/">
         Vinh Chu
       </a>
       <div className="nav-container">
