@@ -17,10 +17,8 @@ function CoreSkills() {
         </p>
         <h3>Libraries and Frameworks</h3>
         <p>Bootstrap, React, Spring Boot</p>
-        <h3>Services</h3>
-        <p>AWS</p>
         <h3>Databases</h3>
-        <p>SQL, Excel</p>
+        <p>SQL, PostgreSQL, Excel</p>
         <h3>Tools and Enviroments</h3>
         <p>Git, GitHub, Docker</p>
       </div>

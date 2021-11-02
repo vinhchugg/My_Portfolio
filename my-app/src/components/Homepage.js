@@ -7,15 +7,10 @@ function Homepage() {
     <section className="homepage full-page">
       <section className="homepage-title">
         <section className="title">
-          <h1 className="name animate__animated">
-            <span className="animate__animated">V</span>
-            <span className="animate__animated">I</span>
-            <span className="animate__animated">N</span>
-            <span className="animate__animated">H</span>
+          <h1 className="name animate__animated animate__tada">
+            VINH
             <br />
-            <span className="animate__animated">C</span>
-            <span className="animate__animated">H</span>
-            <span className="animate__animated">U</span>
+            CHU
           </h1>
           <p className="job-title animate__animated animate__fadeInLeft">
             Software Engineer

@@ -17,8 +17,8 @@ function PersonalProjects() {
         </p>
         <h3>The Odin Project</h3>
         <p>
-          Improving front-end coding skills by completing a series of challenges
-          using HTML, CSS and JavaScript.
+          Developing on the fundamentals of Web Development though building
+          mini-projects using HTML, CSS and JavaScript.
         </p>
       </div>
     </section>
