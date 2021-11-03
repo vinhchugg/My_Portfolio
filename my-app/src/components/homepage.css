@@ -1,4 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
+/* @import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura); */
+
 .full-page {
   height: calc(100vh - 4rem);
 }
@@ -16,7 +17,7 @@
 }
 
 h1 {
-  font-family: "futura";
+  font-family: "Jost", sans-serif;
   font-size: 8rem;
   line-height: 7rem;
   font-weight: 400;

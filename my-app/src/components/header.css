@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura);
+/* @import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura); */
 
 .header {
   width: 100%;
@@ -12,7 +12,7 @@ header .name {
   font-size: 2.4rem;
   letter-spacing: 0.1rem;
   position: relative;
-  font-family: "futura";
+  font-family: "Jost", sans-serif;
 }
 
 a {

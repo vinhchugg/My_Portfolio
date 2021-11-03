@@ -1,6 +1,6 @@
 import React from "react";
 import "./homepage.css";
-import drawing from "../images/Vinh-Portfolio.png";
+import drawing from "../images/Vinh-Portfolio.webp";
 
 function Homepage() {
   return (
