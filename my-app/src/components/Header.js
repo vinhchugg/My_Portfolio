@@ -1,5 +1,4 @@
 import React from "react";
-// import NavBar from "./NavBar";
 import "./header.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -16,7 +15,6 @@ function Header() {
         <a className="" href="https://www.linkedin.com/in/vinh-chu-7502b81b3/">
           <FaLinkedin />
         </a>
-        <div className="menu-icon"></div>
       </div>
     </header>
   );

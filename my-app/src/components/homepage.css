@@ -1,7 +1,5 @@
-/* @import url(//db.onlinewebfonts.com/c/e8c6a63541de0a4211a9358cbe74690f?family=Futura); */
-
 .full-page {
-  height: calc(100vh - 4rem);
+  height: 100vh;
 }
 
 .homepage {
@@ -51,7 +49,6 @@ h1 {
 
 .title {
   width: 100%;
-  padding: 2rem 5rem;
   text-align: center;
 }
 
@@ -61,7 +58,7 @@ h1 {
 
 .portfolio-drawing {
   max-width: 420px;
-  width: 70%;
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -85,4 +82,13 @@ h1 {
     width: 100%;
     max-width: 500px;
   }
+  .name {
+    font-size: 10rem;
+    row-gap: 2rem;
+  }
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
 }

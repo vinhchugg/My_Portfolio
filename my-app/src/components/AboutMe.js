@@ -1,18 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import "./typewriter.css";
-import "./animation";
-import { useInView } from "react-intersection-observer";
 import "./styles.css";
 
-function AboutMe() {
+import { InView } from 'react-intersection-observer';
+
+const AboutMe = () => {
+const [animation, setAnimation] = useState(false) 
+
   return (
     <section className="about-me">
       <header className="section-header">
-        <div className="section-header-title typewriter">
+        <InView as="h2" onChange={(inView) => {setAnimation(inView)}} className={`section-header-title ${animation ? "typewriter" : "typed"}`}>
           <h2>// About Me</h2>
-        </div>
+        </InView>
       </header>
-      <div className="section-info">
+      <div className="text-centered">
         <p>
           Software Engineer Consultant at Bright Network with a degree in
           Mathematics.

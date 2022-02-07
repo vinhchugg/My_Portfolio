@@ -1,9 +1,9 @@
-import React from "react";
 import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import CoreSkills from "./CoreSkills";
 import PersonalProjects from "./PersonalProjects";
 import ContactMe from "./ContactMe";
+
 
 function Main() {
   return (

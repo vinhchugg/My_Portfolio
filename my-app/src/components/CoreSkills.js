@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./typewriter.css";
+import { InView } from 'react-intersection-observer';
 
 function CoreSkills() {
+const [animation, setAnimation] = useState(false) 
+
   return (
     <section className="core-skills">
       <header className="section-header">
-        <div className="typewriter">
+      <InView as="h2" onChange={(inView) => {setAnimation(inView)}} className={`section-header-title ${animation ? "typewriter" : "typed"}`}>
           <h2>// Core Skills</h2>
-        </div>
+        </InView>
       </header>
       <div className="core-skills__text text-centered">
         <h3>Programming Languages</h3>

@@ -4,13 +4,12 @@ import drawing from "../images/Vinh-Portfolio.webp";
 
 function Homepage() {
   return (
-    <section className="homepage full-page">
+    <section className="homepage">
       <section className="homepage-title">
         <section className="title">
           <h1 className="name animate__animated animate__tada">
-            VINH
-            <br />
-            CHU
+            <span>VINH</span>
+            <span>CHU</span>
           </h1>
           <p className="job-title animate__animated animate__fadeInLeft">
             Software Engineer

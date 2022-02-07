@@ -1,5 +1,19 @@
+.full-page {
+  height: 100vh;
+}
+
 .text-centered {
   text-align: center;
+}
+
+.text-centered > a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .section-header {
@@ -10,11 +24,4 @@
 .core-skills__text {
   line-height: 1.5;
   word-spacing: 0.5rem;
-}
-
-.section-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
 }

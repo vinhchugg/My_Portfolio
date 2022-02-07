@@ -1,5 +1,11 @@
-.full-page {
-  height: 100vh;
+h2 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 5rem;
+  }
 }
 
 .section-header {
@@ -8,7 +14,7 @@
   padding-top: 3rem;
 }
 
-.typewriter h2 {
+.typewriter h2{
   color: #229977;
   font-family: monospace;
   overflow: hidden;
@@ -17,6 +23,17 @@
   margin: 0 auto;
   letter-spacing: 0.2em;
   animation: typing 3.5s steps(25, end), blink-caret 0.5s step-end infinite;
+}
+
+.typed h2 {
+  color: #229977;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+  animation: blink-caret 0.5s step-end infinite;
+  border-right: 0.15em solid orange;
 }
 
 @keyframes typing {
