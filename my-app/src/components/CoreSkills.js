@@ -23,7 +23,7 @@ const [animation, setAnimation] = useState(false)
         <h3>Databases</h3>
         <p>SQL, PostgreSQL, Excel</p>
         <h3>Tools and Enviroments</h3>
-        <p>Git, GitHub, Docker</p>
+        <p>Git, GitHub</p>
       </div>
     </section>
   );
