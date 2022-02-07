@@ -19,7 +19,7 @@ const [animation, setAnimation] = useState(false)
           NodeJS)
         </p>
         <h3>Libraries and Frameworks</h3>
-        <p>Bootstrap, React, Spring Boot</p>
+        <p>Bootstrap, React, NextJS, Spring Boot</p>
         <h3>Databases</h3>
         <p>SQL, PostgreSQL, Excel</p>
         <h3>Tools and Enviroments</h3>
